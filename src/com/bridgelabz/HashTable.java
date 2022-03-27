@@ -1,6 +1,7 @@
 package com.bridgelabz;
 
 import java.util.Hashtable;
+import java.util.*;
 
 public class HashTable {
     public static void main(String[] args) {
@@ -33,6 +34,11 @@ public class HashTable {
         h.remove(5); // to delete key and value at index 5
         System.out.println("Removing the key and value: ");
         System.out.println(h);
+        System.out.println(" ");
+        System.out.println("-------------------");
+
+        // checking if value is present in the hash table or not
+        System.out.println("Is the value 'L' present? " + h.contains("L"));
         System.out.println(" ");
         System.out.println("-------------------");
 
