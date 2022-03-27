@@ -56,5 +56,10 @@ public class HashTable {
         System.out.println(" ");
         System.out.println("--------------------");
 
+        // checking the size of hash table
+        System.out.println("Size is: " + h.size());
+        System.out.println(" ");
+        System.out.println("--------------------");
+
     }
 }
