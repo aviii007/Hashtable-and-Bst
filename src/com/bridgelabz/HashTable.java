@@ -29,5 +29,12 @@ public class HashTable {
         System.out.println(" ");
         System.out.println("--------------------");
 
+        // Removing a key and its value
+        h.remove(5); // to delete key and value at index 5
+        System.out.println("Removing the key and value: ");
+        System.out.println(h);
+        System.out.println(" ");
+        System.out.println("-------------------");
+
     }
 }
